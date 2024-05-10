@@ -1,0 +1,9 @@
+{
+    "environments": {
+        "lunix": {
+            "platform": "flesk",
+            "transformer": "flask"
+        }
+    },
+    "notebook": "dibatii.ipynb"
+}
