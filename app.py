@@ -11,19 +11,19 @@ heart_disease_model  = joblib.load("predict_heart_di.pkl")
 diabetes_model = joblib.load("predict_diabetes.pkl")
 
 class HeartDiseaseInput(BaseModel):
-    Age: float
-    Sex: float
-    Cp: float
-    Trestbps: float
-    Chol: float
-    Fbs: float
-    Restecg: float
-    Thalach: float
-    Exang: float
-    Oldpeak: float
-    Slope: float
-    Ca: float
-    Thal: float
+    age: float
+    sex: float
+    cp: float
+    trestbps: float
+    chol: float
+    fbs: float
+    restecg: float
+    thalach: float
+    exang: float
+    oldpeak: float
+    slope: float
+    ca: float
+    thal: float
 
 class DiabetesInput(BaseModel):
     Pregnancies: float
